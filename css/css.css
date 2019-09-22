@@ -21,6 +21,7 @@ body {
     float: left;
     padding: 10px;
     background-color: whitesmoke;
+    text-align: center;
     height: 580px; 
 }
 img{
@@ -33,6 +34,19 @@ img{
     background-color: whitesmoke;
     padding: 10px;
     height: 1200px; 
+}
+.leftb{
+    position: relative;
+    height: 80px;
+    padding: 9px;
+    top: -150px;
+    background-color: grey;
+}
+.rightb{
+    position: relative;
+    height: 80px;
+    top: -150px;
+    background-color: grey;
 }
 span{
     color: black;
@@ -58,9 +72,6 @@ button{
     }
     .ef{
         width: 100%;
-    }
-    .column1{
-        text-align: center;
     }
     .ac{
         text-align: center;
