@@ -55,14 +55,16 @@ span{
     width:84px;
     height: 64px;
 }
-input+p+input {
+input+p+p+input {
     height : 200px;
 }
 .ef{
     float: left;
 }
 button{
-    background-color: cornflowerblue;
+    position: relative;
+    top: -30px;
+    background-color: orangered;
     height: 30px;
 }
 @media (max-width: 768px) {
