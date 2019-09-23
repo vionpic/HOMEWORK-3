@@ -18,6 +18,7 @@ body {
     background-color: #E6E6FA;
 }
 .column1 {
+    position: relative;
     float: left;
     padding: 10px;
     background-color: whitesmoke;
@@ -69,6 +70,7 @@ button{
 }
 @media (max-width: 768px) {
     .column1,.column2 {
+    
       width: 100%;
       margin-left: 0;
     }
